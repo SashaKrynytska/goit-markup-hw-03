@@ -206,7 +206,7 @@ img {
   margin-right: 30px;
 }*/
 .features {
-  margin-bottom: -94px;
+  padding-bottom: 0;
 }
 .features-list {
   margin: 0;
