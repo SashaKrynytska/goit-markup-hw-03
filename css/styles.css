@@ -205,11 +205,12 @@ img {
 .features-item:not(:last-child) {
   margin-right: 30px;
 }*/
-
+.features {
+  margin-bottom: -94px;
+}
 .features-list {
   margin: 0;
   padding-left: 0;
-  margin-bottom: 94px;
   list-style: none;
   display: flex;
   margin-left: calc(-1 * var(--card-set-gap));
@@ -301,7 +302,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-contacts li {
+.footer-contacts li:not(:last-child) {
   margin-bottom: 9px;
 }
 
